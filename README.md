@@ -20,7 +20,7 @@
 
 I build AI systems that know things. Not systems that guess well — systems that carry real context about a business and can be asked hard questions about it.
 
-The route here was sideways. I started in data engineering, spent time as a data consultant in Amsterdam, and now work as founding AI engineer at [Ubundi](https://ubundi.com/), where I build enterprise AI: retrieval, GraphRAG, knowledge graphs, and the context plumbing that decides whether an AI system is useful or just impressive.
+The route here was sideways. I started in data engineering, spent time as a data consultant in Amsterdam, and now work as founding AI engineer at [Ubundi](https://ubundi.com/), where I build enterprise AI solutions.
 
 The through-line is the same in every role: **the model is rarely the hard part. The data around it is.**
 
