@@ -1,71 +1,437 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46" role="img" aria-label="What I work on">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46" role="img" aria-label="Founding AI Engineer at Ubundi">
   <title>Founding AI Engineer @ Ubundi</title>
-  <defs>
-    <clipPath id="t0"><rect x="302.1" y="0" width="0" height="46">
-      <animate attributeName="width" values="0;0;295.8;295.8;0;0" keyTimes="0.0000;0.0000;0.0800;0.1675;0.1975;1.0000" dur="20.0s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="t1"><rect x="215.4" y="0" width="0" height="46">
-      <animate attributeName="width" values="0;0;469.2;469.2;0;0" keyTimes="0.0000;0.2000;0.2800;0.3675;0.3975;1.0000" dur="20.0s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="t2"><rect x="261.3" y="0" width="0" height="46">
-      <animate attributeName="width" values="0;0;377.4;377.4;0;0" keyTimes="0.0000;0.4000;0.4800;0.5675;0.5975;1.0000" dur="20.0s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="t3"><rect x="225.6" y="0" width="0" height="46">
-      <animate attributeName="width" values="0;0;448.8;448.8;0;0" keyTimes="0.0000;0.6000;0.6800;0.7675;0.7975;1.0000" dur="20.0s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="t4"><rect x="276.6" y="0" width="0" height="46">
-      <animate attributeName="width" values="0;0;346.8;346.8;0;0" keyTimes="0.0000;0.8000;0.8800;0.9675;0.9975;1.0000" dur="20.0s" repeatCount="indefinite"/>
-    </rect></clipPath>
-  </defs>
-  <rect width="900" height="46" fill="none"/>
-  <g opacity="1">
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0000;0.0015;0.1975;0.1990;1.0000" dur="20.0s" repeatCount="indefinite"/>
-    <g clip-path="url(#t0)">
-      <text x="450.0" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#22D3EE">founding ai engineer @ ubundi</text>
-    </g>
-    <rect x="302.1" y="16" width="2.6" height="18" fill="#22D3EE">
-      <animate attributeName="x" values="302.1;302.1;597.9;597.9;302.1;302.1" keyTimes="0.0000;0.0000;0.0800;0.1675;0.1975;1.0000" dur="20.0s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2000;0.2015;0.3975;0.3990;1.0000" dur="20.0s" repeatCount="indefinite"/>
-    <g clip-path="url(#t1)">
-      <text x="450.0" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#7C5CFF">knowledge graphs · graphrag · context-aware ai</text>
-    </g>
-    <rect x="215.4" y="16" width="2.6" height="18" fill="#7C5CFF">
-      <animate attributeName="x" values="215.4;215.4;684.6;684.6;215.4;215.4" keyTimes="0.0000;0.2000;0.2800;0.3675;0.3975;1.0000" dur="20.0s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4000;0.4015;0.5975;0.5990;1.0000" dur="20.0s" repeatCount="indefinite"/>
-    <g clip-path="url(#t2)">
-      <text x="450.0" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#F471B5">enterprise ai that survives real data</text>
-    </g>
-    <rect x="261.3" y="16" width="2.6" height="18" fill="#F471B5">
-      <animate attributeName="x" values="261.3;261.3;638.7;638.7;261.3;261.3" keyTimes="0.0000;0.4000;0.4800;0.5675;0.5975;1.0000" dur="20.0s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6000;0.6015;0.7975;0.7990;1.0000" dur="20.0s" repeatCount="indefinite"/>
-    <g clip-path="url(#t3)">
-      <text x="450.0" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#22D3EE">ex-data consultant, amsterdam → stellenbosch</text>
-    </g>
-    <rect x="225.6" y="16" width="2.6" height="18" fill="#22D3EE">
-      <animate attributeName="x" values="225.6;225.6;674.4;674.4;225.6;225.6" keyTimes="0.0000;0.6000;0.6800;0.7675;0.7975;1.0000" dur="20.0s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8000;0.8015;0.9975;0.9990;1.0000" dur="20.0s" repeatCount="indefinite"/>
-    <g clip-path="url(#t4)">
-      <text x="450.0" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#7C5CFF">now: a data engine for physical ai</text>
-    </g>
-    <rect x="276.6" y="16" width="2.6" height="18" fill="#7C5CFF">
-      <animate attributeName="x" values="276.6;276.6;623.4;623.4;276.6;276.6" keyTimes="0.0000;0.8000;0.8800;0.9675;0.9975;1.0000" dur="20.0s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
-  </g>
+  <style>
+    .cursor { animation: cursorblink 1s steps(1, end) infinite; }
+    @keyframes cursorblink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes c0_0 { 0%, 0.196% { opacity: 0; } 0.276%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_1 { 0%, 0.472% { opacity: 0; } 0.552%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_2 { 0%, 0.748% { opacity: 0; } 0.828%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_3 { 0%, 1.023% { opacity: 0; } 1.103%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_4 { 0%, 1.299% { opacity: 0; } 1.379%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_5 { 0%, 1.575% { opacity: 0; } 1.655%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_6 { 0%, 1.851% { opacity: 0; } 1.931%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_7 { 0%, 2.127% { opacity: 0; } 2.207%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_8 { 0%, 2.403% { opacity: 0; } 2.483%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_9 { 0%, 2.679% { opacity: 0; } 2.759%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_10 { 0%, 2.954% { opacity: 0; } 3.034%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_11 { 0%, 3.230% { opacity: 0; } 3.310%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_12 { 0%, 3.506% { opacity: 0; } 3.586%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_13 { 0%, 3.782% { opacity: 0; } 3.862%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_14 { 0%, 4.058% { opacity: 0; } 4.138%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_15 { 0%, 4.334% { opacity: 0; } 4.414%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_16 { 0%, 4.610% { opacity: 0; } 4.690%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_17 { 0%, 4.886% { opacity: 0; } 4.966%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_18 { 0%, 5.161% { opacity: 0; } 5.241%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_19 { 0%, 5.437% { opacity: 0; } 5.517%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_20 { 0%, 5.713% { opacity: 0; } 5.793%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_21 { 0%, 5.989% { opacity: 0; } 6.069%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_22 { 0%, 6.265% { opacity: 0; } 6.345%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_23 { 0%, 6.541% { opacity: 0; } 6.621%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_24 { 0%, 6.817% { opacity: 0; } 6.897%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_25 { 0%, 7.092% { opacity: 0; } 7.172%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_26 { 0%, 7.368% { opacity: 0; } 7.448%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_27 { 0%, 7.644% { opacity: 0; } 7.724%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    @keyframes c0_28 { 0%, 7.920% { opacity: 0; } 8.000%, 16.750% { opacity: 1; } 16.830%, 100% { opacity: 0; } }
+    .l0 tspan { animation-duration: 20.0s; animation-iteration-count: infinite; animation-timing-function: steps(1, end); }
+    .l0 tspan:nth-child(1) { animation-name: c0_0; }
+    .l0 tspan:nth-child(2) { animation-name: c0_1; }
+    .l0 tspan:nth-child(3) { animation-name: c0_2; }
+    .l0 tspan:nth-child(4) { animation-name: c0_3; }
+    .l0 tspan:nth-child(5) { animation-name: c0_4; }
+    .l0 tspan:nth-child(6) { animation-name: c0_5; }
+    .l0 tspan:nth-child(7) { animation-name: c0_6; }
+    .l0 tspan:nth-child(8) { animation-name: c0_7; }
+    .l0 tspan:nth-child(9) { animation-name: c0_8; }
+    .l0 tspan:nth-child(10) { animation-name: c0_9; }
+    .l0 tspan:nth-child(11) { animation-name: c0_10; }
+    .l0 tspan:nth-child(12) { animation-name: c0_11; }
+    .l0 tspan:nth-child(13) { animation-name: c0_12; }
+    .l0 tspan:nth-child(14) { animation-name: c0_13; }
+    .l0 tspan:nth-child(15) { animation-name: c0_14; }
+    .l0 tspan:nth-child(16) { animation-name: c0_15; }
+    .l0 tspan:nth-child(17) { animation-name: c0_16; }
+    .l0 tspan:nth-child(18) { animation-name: c0_17; }
+    .l0 tspan:nth-child(19) { animation-name: c0_18; }
+    .l0 tspan:nth-child(20) { animation-name: c0_19; }
+    .l0 tspan:nth-child(21) { animation-name: c0_20; }
+    .l0 tspan:nth-child(22) { animation-name: c0_21; }
+    .l0 tspan:nth-child(23) { animation-name: c0_22; }
+    .l0 tspan:nth-child(24) { animation-name: c0_23; }
+    .l0 tspan:nth-child(25) { animation-name: c0_24; }
+    .l0 tspan:nth-child(26) { animation-name: c0_25; }
+    .l0 tspan:nth-child(27) { animation-name: c0_26; }
+    .l0 tspan:nth-child(28) { animation-name: c0_27; }
+    .l0 tspan:nth-child(29) { animation-name: c0_28; }
+    .k0 { animation: k0 20.0s steps(29, end) infinite; }
+    @keyframes k0 {
+      0%, 0.000% { transform: translateX(0); opacity: 0; }
+      0.005% { transform: translateX(0); opacity: 1; }
+      8.000%, 16.750% { transform: translateX(295.8px); opacity: 1; }
+      16.755%, 100% { transform: translateX(295.8px); opacity: 0; }
+    }
+    @keyframes c1_0 { 0%, 20.094% { opacity: 0; } 20.174%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_1 { 0%, 20.268% { opacity: 0; } 20.348%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_2 { 0%, 20.442% { opacity: 0; } 20.522%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_3 { 0%, 20.616% { opacity: 0; } 20.696%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_4 { 0%, 20.790% { opacity: 0; } 20.870%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_5 { 0%, 20.963% { opacity: 0; } 21.043%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_6 { 0%, 21.137% { opacity: 0; } 21.217%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_7 { 0%, 21.311% { opacity: 0; } 21.391%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_8 { 0%, 21.485% { opacity: 0; } 21.565%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_9 { 0%, 21.659% { opacity: 0; } 21.739%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_10 { 0%, 21.833% { opacity: 0; } 21.913%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_11 { 0%, 22.007% { opacity: 0; } 22.087%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_12 { 0%, 22.181% { opacity: 0; } 22.261%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_13 { 0%, 22.355% { opacity: 0; } 22.435%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_14 { 0%, 22.529% { opacity: 0; } 22.609%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_15 { 0%, 22.703% { opacity: 0; } 22.783%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_16 { 0%, 22.877% { opacity: 0; } 22.957%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_17 { 0%, 23.050% { opacity: 0; } 23.130%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_18 { 0%, 23.224% { opacity: 0; } 23.304%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_19 { 0%, 23.398% { opacity: 0; } 23.478%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_20 { 0%, 23.572% { opacity: 0; } 23.652%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_21 { 0%, 23.746% { opacity: 0; } 23.826%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_22 { 0%, 23.920% { opacity: 0; } 24.000%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_23 { 0%, 24.094% { opacity: 0; } 24.174%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_24 { 0%, 24.268% { opacity: 0; } 24.348%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_25 { 0%, 24.442% { opacity: 0; } 24.522%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_26 { 0%, 24.616% { opacity: 0; } 24.696%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_27 { 0%, 24.790% { opacity: 0; } 24.870%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_28 { 0%, 24.963% { opacity: 0; } 25.043%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_29 { 0%, 25.137% { opacity: 0; } 25.217%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_30 { 0%, 25.311% { opacity: 0; } 25.391%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_31 { 0%, 25.485% { opacity: 0; } 25.565%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_32 { 0%, 25.659% { opacity: 0; } 25.739%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_33 { 0%, 25.833% { opacity: 0; } 25.913%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_34 { 0%, 26.007% { opacity: 0; } 26.087%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_35 { 0%, 26.181% { opacity: 0; } 26.261%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_36 { 0%, 26.355% { opacity: 0; } 26.435%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_37 { 0%, 26.529% { opacity: 0; } 26.609%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_38 { 0%, 26.703% { opacity: 0; } 26.783%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_39 { 0%, 26.877% { opacity: 0; } 26.957%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_40 { 0%, 27.050% { opacity: 0; } 27.130%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_41 { 0%, 27.224% { opacity: 0; } 27.304%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_42 { 0%, 27.398% { opacity: 0; } 27.478%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_43 { 0%, 27.572% { opacity: 0; } 27.652%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_44 { 0%, 27.746% { opacity: 0; } 27.826%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    @keyframes c1_45 { 0%, 27.920% { opacity: 0; } 28.000%, 36.750% { opacity: 1; } 36.830%, 100% { opacity: 0; } }
+    .l1 tspan { animation-duration: 20.0s; animation-iteration-count: infinite; animation-timing-function: steps(1, end); }
+    .l1 tspan:nth-child(1) { animation-name: c1_0; }
+    .l1 tspan:nth-child(2) { animation-name: c1_1; }
+    .l1 tspan:nth-child(3) { animation-name: c1_2; }
+    .l1 tspan:nth-child(4) { animation-name: c1_3; }
+    .l1 tspan:nth-child(5) { animation-name: c1_4; }
+    .l1 tspan:nth-child(6) { animation-name: c1_5; }
+    .l1 tspan:nth-child(7) { animation-name: c1_6; }
+    .l1 tspan:nth-child(8) { animation-name: c1_7; }
+    .l1 tspan:nth-child(9) { animation-name: c1_8; }
+    .l1 tspan:nth-child(10) { animation-name: c1_9; }
+    .l1 tspan:nth-child(11) { animation-name: c1_10; }
+    .l1 tspan:nth-child(12) { animation-name: c1_11; }
+    .l1 tspan:nth-child(13) { animation-name: c1_12; }
+    .l1 tspan:nth-child(14) { animation-name: c1_13; }
+    .l1 tspan:nth-child(15) { animation-name: c1_14; }
+    .l1 tspan:nth-child(16) { animation-name: c1_15; }
+    .l1 tspan:nth-child(17) { animation-name: c1_16; }
+    .l1 tspan:nth-child(18) { animation-name: c1_17; }
+    .l1 tspan:nth-child(19) { animation-name: c1_18; }
+    .l1 tspan:nth-child(20) { animation-name: c1_19; }
+    .l1 tspan:nth-child(21) { animation-name: c1_20; }
+    .l1 tspan:nth-child(22) { animation-name: c1_21; }
+    .l1 tspan:nth-child(23) { animation-name: c1_22; }
+    .l1 tspan:nth-child(24) { animation-name: c1_23; }
+    .l1 tspan:nth-child(25) { animation-name: c1_24; }
+    .l1 tspan:nth-child(26) { animation-name: c1_25; }
+    .l1 tspan:nth-child(27) { animation-name: c1_26; }
+    .l1 tspan:nth-child(28) { animation-name: c1_27; }
+    .l1 tspan:nth-child(29) { animation-name: c1_28; }
+    .l1 tspan:nth-child(30) { animation-name: c1_29; }
+    .l1 tspan:nth-child(31) { animation-name: c1_30; }
+    .l1 tspan:nth-child(32) { animation-name: c1_31; }
+    .l1 tspan:nth-child(33) { animation-name: c1_32; }
+    .l1 tspan:nth-child(34) { animation-name: c1_33; }
+    .l1 tspan:nth-child(35) { animation-name: c1_34; }
+    .l1 tspan:nth-child(36) { animation-name: c1_35; }
+    .l1 tspan:nth-child(37) { animation-name: c1_36; }
+    .l1 tspan:nth-child(38) { animation-name: c1_37; }
+    .l1 tspan:nth-child(39) { animation-name: c1_38; }
+    .l1 tspan:nth-child(40) { animation-name: c1_39; }
+    .l1 tspan:nth-child(41) { animation-name: c1_40; }
+    .l1 tspan:nth-child(42) { animation-name: c1_41; }
+    .l1 tspan:nth-child(43) { animation-name: c1_42; }
+    .l1 tspan:nth-child(44) { animation-name: c1_43; }
+    .l1 tspan:nth-child(45) { animation-name: c1_44; }
+    .l1 tspan:nth-child(46) { animation-name: c1_45; }
+    .k1 { animation: k1 20.0s steps(46, end) infinite; }
+    @keyframes k1 {
+      0%, 20.000% { transform: translateX(0); opacity: 0; }
+      20.005% { transform: translateX(0); opacity: 1; }
+      28.000%, 36.750% { transform: translateX(469.2px); opacity: 1; }
+      36.755%, 100% { transform: translateX(469.2px); opacity: 0; }
+    }
+    @keyframes c2_0 { 0%, 40.136% { opacity: 0; } 40.216%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_1 { 0%, 40.352% { opacity: 0; } 40.432%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_2 { 0%, 40.569% { opacity: 0; } 40.649%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_3 { 0%, 40.785% { opacity: 0; } 40.865%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_4 { 0%, 41.001% { opacity: 0; } 41.081%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_5 { 0%, 41.217% { opacity: 0; } 41.297%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_6 { 0%, 41.434% { opacity: 0; } 41.514%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_7 { 0%, 41.650% { opacity: 0; } 41.730%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_8 { 0%, 41.866% { opacity: 0; } 41.946%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_9 { 0%, 42.082% { opacity: 0; } 42.162%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_10 { 0%, 42.298% { opacity: 0; } 42.378%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_11 { 0%, 42.515% { opacity: 0; } 42.595%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_12 { 0%, 42.731% { opacity: 0; } 42.811%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_13 { 0%, 42.947% { opacity: 0; } 43.027%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_14 { 0%, 43.163% { opacity: 0; } 43.243%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_15 { 0%, 43.379% { opacity: 0; } 43.459%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_16 { 0%, 43.596% { opacity: 0; } 43.676%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_17 { 0%, 43.812% { opacity: 0; } 43.892%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_18 { 0%, 44.028% { opacity: 0; } 44.108%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_19 { 0%, 44.244% { opacity: 0; } 44.324%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_20 { 0%, 44.461% { opacity: 0; } 44.541%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_21 { 0%, 44.677% { opacity: 0; } 44.757%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_22 { 0%, 44.893% { opacity: 0; } 44.973%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_23 { 0%, 45.109% { opacity: 0; } 45.189%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_24 { 0%, 45.325% { opacity: 0; } 45.405%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_25 { 0%, 45.542% { opacity: 0; } 45.622%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_26 { 0%, 45.758% { opacity: 0; } 45.838%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_27 { 0%, 45.974% { opacity: 0; } 46.054%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_28 { 0%, 46.190% { opacity: 0; } 46.270%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_29 { 0%, 46.406% { opacity: 0; } 46.486%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_30 { 0%, 46.623% { opacity: 0; } 46.703%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_31 { 0%, 46.839% { opacity: 0; } 46.919%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_32 { 0%, 47.055% { opacity: 0; } 47.135%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_33 { 0%, 47.271% { opacity: 0; } 47.351%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_34 { 0%, 47.488% { opacity: 0; } 47.568%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_35 { 0%, 47.704% { opacity: 0; } 47.784%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    @keyframes c2_36 { 0%, 47.920% { opacity: 0; } 48.000%, 56.750% { opacity: 1; } 56.830%, 100% { opacity: 0; } }
+    .l2 tspan { animation-duration: 20.0s; animation-iteration-count: infinite; animation-timing-function: steps(1, end); }
+    .l2 tspan:nth-child(1) { animation-name: c2_0; }
+    .l2 tspan:nth-child(2) { animation-name: c2_1; }
+    .l2 tspan:nth-child(3) { animation-name: c2_2; }
+    .l2 tspan:nth-child(4) { animation-name: c2_3; }
+    .l2 tspan:nth-child(5) { animation-name: c2_4; }
+    .l2 tspan:nth-child(6) { animation-name: c2_5; }
+    .l2 tspan:nth-child(7) { animation-name: c2_6; }
+    .l2 tspan:nth-child(8) { animation-name: c2_7; }
+    .l2 tspan:nth-child(9) { animation-name: c2_8; }
+    .l2 tspan:nth-child(10) { animation-name: c2_9; }
+    .l2 tspan:nth-child(11) { animation-name: c2_10; }
+    .l2 tspan:nth-child(12) { animation-name: c2_11; }
+    .l2 tspan:nth-child(13) { animation-name: c2_12; }
+    .l2 tspan:nth-child(14) { animation-name: c2_13; }
+    .l2 tspan:nth-child(15) { animation-name: c2_14; }
+    .l2 tspan:nth-child(16) { animation-name: c2_15; }
+    .l2 tspan:nth-child(17) { animation-name: c2_16; }
+    .l2 tspan:nth-child(18) { animation-name: c2_17; }
+    .l2 tspan:nth-child(19) { animation-name: c2_18; }
+    .l2 tspan:nth-child(20) { animation-name: c2_19; }
+    .l2 tspan:nth-child(21) { animation-name: c2_20; }
+    .l2 tspan:nth-child(22) { animation-name: c2_21; }
+    .l2 tspan:nth-child(23) { animation-name: c2_22; }
+    .l2 tspan:nth-child(24) { animation-name: c2_23; }
+    .l2 tspan:nth-child(25) { animation-name: c2_24; }
+    .l2 tspan:nth-child(26) { animation-name: c2_25; }
+    .l2 tspan:nth-child(27) { animation-name: c2_26; }
+    .l2 tspan:nth-child(28) { animation-name: c2_27; }
+    .l2 tspan:nth-child(29) { animation-name: c2_28; }
+    .l2 tspan:nth-child(30) { animation-name: c2_29; }
+    .l2 tspan:nth-child(31) { animation-name: c2_30; }
+    .l2 tspan:nth-child(32) { animation-name: c2_31; }
+    .l2 tspan:nth-child(33) { animation-name: c2_32; }
+    .l2 tspan:nth-child(34) { animation-name: c2_33; }
+    .l2 tspan:nth-child(35) { animation-name: c2_34; }
+    .l2 tspan:nth-child(36) { animation-name: c2_35; }
+    .l2 tspan:nth-child(37) { animation-name: c2_36; }
+    .k2 { animation: k2 20.0s steps(37, end) infinite; }
+    @keyframes k2 {
+      0%, 40.000% { transform: translateX(0); opacity: 0; }
+      40.005% { transform: translateX(0); opacity: 1; }
+      48.000%, 56.750% { transform: translateX(377.4px); opacity: 1; }
+      56.755%, 100% { transform: translateX(377.4px); opacity: 0; }
+    }
+    @keyframes c3_0 { 0%, 60.102% { opacity: 0; } 60.182%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_1 { 0%, 60.284% { opacity: 0; } 60.364%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_2 { 0%, 60.465% { opacity: 0; } 60.545%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_3 { 0%, 60.647% { opacity: 0; } 60.727%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_4 { 0%, 60.829% { opacity: 0; } 60.909%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_5 { 0%, 61.011% { opacity: 0; } 61.091%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_6 { 0%, 61.193% { opacity: 0; } 61.273%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_7 { 0%, 61.375% { opacity: 0; } 61.455%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_8 { 0%, 61.556% { opacity: 0; } 61.636%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_9 { 0%, 61.738% { opacity: 0; } 61.818%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_10 { 0%, 61.920% { opacity: 0; } 62.000%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_11 { 0%, 62.102% { opacity: 0; } 62.182%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_12 { 0%, 62.284% { opacity: 0; } 62.364%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_13 { 0%, 62.465% { opacity: 0; } 62.545%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_14 { 0%, 62.647% { opacity: 0; } 62.727%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_15 { 0%, 62.829% { opacity: 0; } 62.909%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_16 { 0%, 63.011% { opacity: 0; } 63.091%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_17 { 0%, 63.193% { opacity: 0; } 63.273%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_18 { 0%, 63.375% { opacity: 0; } 63.455%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_19 { 0%, 63.556% { opacity: 0; } 63.636%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_20 { 0%, 63.738% { opacity: 0; } 63.818%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_21 { 0%, 63.920% { opacity: 0; } 64.000%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_22 { 0%, 64.102% { opacity: 0; } 64.182%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_23 { 0%, 64.284% { opacity: 0; } 64.364%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_24 { 0%, 64.465% { opacity: 0; } 64.545%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_25 { 0%, 64.647% { opacity: 0; } 64.727%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_26 { 0%, 64.829% { opacity: 0; } 64.909%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_27 { 0%, 65.011% { opacity: 0; } 65.091%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_28 { 0%, 65.193% { opacity: 0; } 65.273%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_29 { 0%, 65.375% { opacity: 0; } 65.455%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_30 { 0%, 65.556% { opacity: 0; } 65.636%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_31 { 0%, 65.738% { opacity: 0; } 65.818%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_32 { 0%, 65.920% { opacity: 0; } 66.000%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_33 { 0%, 66.102% { opacity: 0; } 66.182%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_34 { 0%, 66.284% { opacity: 0; } 66.364%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_35 { 0%, 66.465% { opacity: 0; } 66.545%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_36 { 0%, 66.647% { opacity: 0; } 66.727%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_37 { 0%, 66.829% { opacity: 0; } 66.909%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_38 { 0%, 67.011% { opacity: 0; } 67.091%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_39 { 0%, 67.193% { opacity: 0; } 67.273%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_40 { 0%, 67.375% { opacity: 0; } 67.455%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_41 { 0%, 67.556% { opacity: 0; } 67.636%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_42 { 0%, 67.738% { opacity: 0; } 67.818%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    @keyframes c3_43 { 0%, 67.920% { opacity: 0; } 68.000%, 76.750% { opacity: 1; } 76.830%, 100% { opacity: 0; } }
+    .l3 tspan { animation-duration: 20.0s; animation-iteration-count: infinite; animation-timing-function: steps(1, end); }
+    .l3 tspan:nth-child(1) { animation-name: c3_0; }
+    .l3 tspan:nth-child(2) { animation-name: c3_1; }
+    .l3 tspan:nth-child(3) { animation-name: c3_2; }
+    .l3 tspan:nth-child(4) { animation-name: c3_3; }
+    .l3 tspan:nth-child(5) { animation-name: c3_4; }
+    .l3 tspan:nth-child(6) { animation-name: c3_5; }
+    .l3 tspan:nth-child(7) { animation-name: c3_6; }
+    .l3 tspan:nth-child(8) { animation-name: c3_7; }
+    .l3 tspan:nth-child(9) { animation-name: c3_8; }
+    .l3 tspan:nth-child(10) { animation-name: c3_9; }
+    .l3 tspan:nth-child(11) { animation-name: c3_10; }
+    .l3 tspan:nth-child(12) { animation-name: c3_11; }
+    .l3 tspan:nth-child(13) { animation-name: c3_12; }
+    .l3 tspan:nth-child(14) { animation-name: c3_13; }
+    .l3 tspan:nth-child(15) { animation-name: c3_14; }
+    .l3 tspan:nth-child(16) { animation-name: c3_15; }
+    .l3 tspan:nth-child(17) { animation-name: c3_16; }
+    .l3 tspan:nth-child(18) { animation-name: c3_17; }
+    .l3 tspan:nth-child(19) { animation-name: c3_18; }
+    .l3 tspan:nth-child(20) { animation-name: c3_19; }
+    .l3 tspan:nth-child(21) { animation-name: c3_20; }
+    .l3 tspan:nth-child(22) { animation-name: c3_21; }
+    .l3 tspan:nth-child(23) { animation-name: c3_22; }
+    .l3 tspan:nth-child(24) { animation-name: c3_23; }
+    .l3 tspan:nth-child(25) { animation-name: c3_24; }
+    .l3 tspan:nth-child(26) { animation-name: c3_25; }
+    .l3 tspan:nth-child(27) { animation-name: c3_26; }
+    .l3 tspan:nth-child(28) { animation-name: c3_27; }
+    .l3 tspan:nth-child(29) { animation-name: c3_28; }
+    .l3 tspan:nth-child(30) { animation-name: c3_29; }
+    .l3 tspan:nth-child(31) { animation-name: c3_30; }
+    .l3 tspan:nth-child(32) { animation-name: c3_31; }
+    .l3 tspan:nth-child(33) { animation-name: c3_32; }
+    .l3 tspan:nth-child(34) { animation-name: c3_33; }
+    .l3 tspan:nth-child(35) { animation-name: c3_34; }
+    .l3 tspan:nth-child(36) { animation-name: c3_35; }
+    .l3 tspan:nth-child(37) { animation-name: c3_36; }
+    .l3 tspan:nth-child(38) { animation-name: c3_37; }
+    .l3 tspan:nth-child(39) { animation-name: c3_38; }
+    .l3 tspan:nth-child(40) { animation-name: c3_39; }
+    .l3 tspan:nth-child(41) { animation-name: c3_40; }
+    .l3 tspan:nth-child(42) { animation-name: c3_41; }
+    .l3 tspan:nth-child(43) { animation-name: c3_42; }
+    .l3 tspan:nth-child(44) { animation-name: c3_43; }
+    .k3 { animation: k3 20.0s steps(44, end) infinite; }
+    @keyframes k3 {
+      0%, 60.000% { transform: translateX(0); opacity: 0; }
+      60.005% { transform: translateX(0); opacity: 1; }
+      68.000%, 76.750% { transform: translateX(448.8px); opacity: 1; }
+      76.755%, 100% { transform: translateX(448.8px); opacity: 0; }
+    }
+    @keyframes c4_0 { 0%, 80.155% { opacity: 0; } 80.235%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_1 { 0%, 80.391% { opacity: 0; } 80.471%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_2 { 0%, 80.626% { opacity: 0; } 80.706%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_3 { 0%, 80.861% { opacity: 0; } 80.941%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_4 { 0%, 81.096% { opacity: 0; } 81.176%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_5 { 0%, 81.332% { opacity: 0; } 81.412%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_6 { 0%, 81.567% { opacity: 0; } 81.647%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_7 { 0%, 81.802% { opacity: 0; } 81.882%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_8 { 0%, 82.038% { opacity: 0; } 82.118%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_9 { 0%, 82.273% { opacity: 0; } 82.353%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_10 { 0%, 82.508% { opacity: 0; } 82.588%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_11 { 0%, 82.744% { opacity: 0; } 82.824%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_12 { 0%, 82.979% { opacity: 0; } 83.059%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_13 { 0%, 83.214% { opacity: 0; } 83.294%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_14 { 0%, 83.449% { opacity: 0; } 83.529%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_15 { 0%, 83.685% { opacity: 0; } 83.765%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_16 { 0%, 83.920% { opacity: 0; } 84.000%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_17 { 0%, 84.155% { opacity: 0; } 84.235%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_18 { 0%, 84.391% { opacity: 0; } 84.471%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_19 { 0%, 84.626% { opacity: 0; } 84.706%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_20 { 0%, 84.861% { opacity: 0; } 84.941%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_21 { 0%, 85.096% { opacity: 0; } 85.176%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_22 { 0%, 85.332% { opacity: 0; } 85.412%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_23 { 0%, 85.567% { opacity: 0; } 85.647%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_24 { 0%, 85.802% { opacity: 0; } 85.882%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_25 { 0%, 86.038% { opacity: 0; } 86.118%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_26 { 0%, 86.273% { opacity: 0; } 86.353%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_27 { 0%, 86.508% { opacity: 0; } 86.588%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_28 { 0%, 86.744% { opacity: 0; } 86.824%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_29 { 0%, 86.979% { opacity: 0; } 87.059%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_30 { 0%, 87.214% { opacity: 0; } 87.294%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_31 { 0%, 87.449% { opacity: 0; } 87.529%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_32 { 0%, 87.685% { opacity: 0; } 87.765%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    @keyframes c4_33 { 0%, 87.920% { opacity: 0; } 88.000%, 96.750% { opacity: 1; } 96.830%, 100% { opacity: 0; } }
+    .l4 tspan { animation-duration: 20.0s; animation-iteration-count: infinite; animation-timing-function: steps(1, end); }
+    .l4 tspan:nth-child(1) { animation-name: c4_0; }
+    .l4 tspan:nth-child(2) { animation-name: c4_1; }
+    .l4 tspan:nth-child(3) { animation-name: c4_2; }
+    .l4 tspan:nth-child(4) { animation-name: c4_3; }
+    .l4 tspan:nth-child(5) { animation-name: c4_4; }
+    .l4 tspan:nth-child(6) { animation-name: c4_5; }
+    .l4 tspan:nth-child(7) { animation-name: c4_6; }
+    .l4 tspan:nth-child(8) { animation-name: c4_7; }
+    .l4 tspan:nth-child(9) { animation-name: c4_8; }
+    .l4 tspan:nth-child(10) { animation-name: c4_9; }
+    .l4 tspan:nth-child(11) { animation-name: c4_10; }
+    .l4 tspan:nth-child(12) { animation-name: c4_11; }
+    .l4 tspan:nth-child(13) { animation-name: c4_12; }
+    .l4 tspan:nth-child(14) { animation-name: c4_13; }
+    .l4 tspan:nth-child(15) { animation-name: c4_14; }
+    .l4 tspan:nth-child(16) { animation-name: c4_15; }
+    .l4 tspan:nth-child(17) { animation-name: c4_16; }
+    .l4 tspan:nth-child(18) { animation-name: c4_17; }
+    .l4 tspan:nth-child(19) { animation-name: c4_18; }
+    .l4 tspan:nth-child(20) { animation-name: c4_19; }
+    .l4 tspan:nth-child(21) { animation-name: c4_20; }
+    .l4 tspan:nth-child(22) { animation-name: c4_21; }
+    .l4 tspan:nth-child(23) { animation-name: c4_22; }
+    .l4 tspan:nth-child(24) { animation-name: c4_23; }
+    .l4 tspan:nth-child(25) { animation-name: c4_24; }
+    .l4 tspan:nth-child(26) { animation-name: c4_25; }
+    .l4 tspan:nth-child(27) { animation-name: c4_26; }
+    .l4 tspan:nth-child(28) { animation-name: c4_27; }
+    .l4 tspan:nth-child(29) { animation-name: c4_28; }
+    .l4 tspan:nth-child(30) { animation-name: c4_29; }
+    .l4 tspan:nth-child(31) { animation-name: c4_30; }
+    .l4 tspan:nth-child(32) { animation-name: c4_31; }
+    .l4 tspan:nth-child(33) { animation-name: c4_32; }
+    .l4 tspan:nth-child(34) { animation-name: c4_33; }
+    .k4 { animation: k4 20.0s steps(34, end) infinite; }
+    @keyframes k4 {
+      0%, 80.000% { transform: translateX(0); opacity: 0; }
+      80.005% { transform: translateX(0); opacity: 1; }
+      88.000%, 96.750% { transform: translateX(346.8px); opacity: 1; }
+      96.755%, 100% { transform: translateX(346.8px); opacity: 0; }
+    }
+  </style>
+  <text class="l0" x="302.1" y="30" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#22D3EE"><tspan>f</tspan><tspan>o</tspan><tspan>u</tspan><tspan>n</tspan><tspan>d</tspan><tspan>i</tspan><tspan>n</tspan><tspan>g</tspan><tspan> </tspan><tspan>a</tspan><tspan>i</tspan><tspan> </tspan><tspan>e</tspan><tspan>n</tspan><tspan>g</tspan><tspan>i</tspan><tspan>n</tspan><tspan>e</tspan><tspan>e</tspan><tspan>r</tspan><tspan> </tspan><tspan>@</tspan><tspan> </tspan><tspan>u</tspan><tspan>b</tspan><tspan>u</tspan><tspan>n</tspan><tspan>d</tspan><tspan>i</tspan></text>
+  <rect class="k0 cursor" x="302.1" y="16" width="2.6" height="18" fill="#22D3EE" opacity="0"/>
+  <text class="l1" x="215.4" y="30" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#7C5CFF"><tspan>k</tspan><tspan>n</tspan><tspan>o</tspan><tspan>w</tspan><tspan>l</tspan><tspan>e</tspan><tspan>d</tspan><tspan>g</tspan><tspan>e</tspan><tspan> </tspan><tspan>g</tspan><tspan>r</tspan><tspan>a</tspan><tspan>p</tspan><tspan>h</tspan><tspan>s</tspan><tspan> </tspan><tspan>·</tspan><tspan> </tspan><tspan>g</tspan><tspan>r</tspan><tspan>a</tspan><tspan>p</tspan><tspan>h</tspan><tspan>r</tspan><tspan>a</tspan><tspan>g</tspan><tspan> </tspan><tspan>·</tspan><tspan> </tspan><tspan>c</tspan><tspan>o</tspan><tspan>n</tspan><tspan>t</tspan><tspan>e</tspan><tspan>x</tspan><tspan>t</tspan><tspan>-</tspan><tspan>a</tspan><tspan>w</tspan><tspan>a</tspan><tspan>r</tspan><tspan>e</tspan><tspan> </tspan><tspan>a</tspan><tspan>i</tspan></text>
+  <rect class="k1 cursor" x="215.4" y="16" width="2.6" height="18" fill="#7C5CFF" opacity="0"/>
+  <text class="l2" x="261.3" y="30" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#F471B5"><tspan>e</tspan><tspan>n</tspan><tspan>t</tspan><tspan>e</tspan><tspan>r</tspan><tspan>p</tspan><tspan>r</tspan><tspan>i</tspan><tspan>s</tspan><tspan>e</tspan><tspan> </tspan><tspan>a</tspan><tspan>i</tspan><tspan> </tspan><tspan>t</tspan><tspan>h</tspan><tspan>a</tspan><tspan>t</tspan><tspan> </tspan><tspan>s</tspan><tspan>u</tspan><tspan>r</tspan><tspan>v</tspan><tspan>i</tspan><tspan>v</tspan><tspan>e</tspan><tspan>s</tspan><tspan> </tspan><tspan>r</tspan><tspan>e</tspan><tspan>a</tspan><tspan>l</tspan><tspan> </tspan><tspan>d</tspan><tspan>a</tspan><tspan>t</tspan><tspan>a</tspan></text>
+  <rect class="k2 cursor" x="261.3" y="16" width="2.6" height="18" fill="#F471B5" opacity="0"/>
+  <text class="l3" x="225.6" y="30" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#22D3EE"><tspan>e</tspan><tspan>x</tspan><tspan>-</tspan><tspan>d</tspan><tspan>a</tspan><tspan>t</tspan><tspan>a</tspan><tspan> </tspan><tspan>c</tspan><tspan>o</tspan><tspan>n</tspan><tspan>s</tspan><tspan>u</tspan><tspan>l</tspan><tspan>t</tspan><tspan>a</tspan><tspan>n</tspan><tspan>t</tspan><tspan>,</tspan><tspan> </tspan><tspan>a</tspan><tspan>m</tspan><tspan>s</tspan><tspan>t</tspan><tspan>e</tspan><tspan>r</tspan><tspan>d</tspan><tspan>a</tspan><tspan>m</tspan><tspan> </tspan><tspan>→</tspan><tspan> </tspan><tspan>s</tspan><tspan>t</tspan><tspan>e</tspan><tspan>l</tspan><tspan>l</tspan><tspan>e</tspan><tspan>n</tspan><tspan>b</tspan><tspan>o</tspan><tspan>s</tspan><tspan>c</tspan><tspan>h</tspan></text>
+  <rect class="k3 cursor" x="225.6" y="16" width="2.6" height="18" fill="#22D3EE" opacity="0"/>
+  <text class="l4" x="276.6" y="30" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#7C5CFF"><tspan>n</tspan><tspan>o</tspan><tspan>w</tspan><tspan>:</tspan><tspan> </tspan><tspan>a</tspan><tspan> </tspan><tspan>d</tspan><tspan>a</tspan><tspan>t</tspan><tspan>a</tspan><tspan> </tspan><tspan>e</tspan><tspan>n</tspan><tspan>g</tspan><tspan>i</tspan><tspan>n</tspan><tspan>e</tspan><tspan> </tspan><tspan>f</tspan><tspan>o</tspan><tspan>r</tspan><tspan> </tspan><tspan>p</tspan><tspan>h</tspan><tspan>y</tspan><tspan>s</tspan><tspan>i</tspan><tspan>c</tspan><tspan>a</tspan><tspan>l</tspan><tspan> </tspan><tspan>a</tspan><tspan>i</tspan></text>
+  <rect class="k4 cursor" x="276.6" y="16" width="2.6" height="18" fill="#7C5CFF" opacity="0"/>
 </svg>

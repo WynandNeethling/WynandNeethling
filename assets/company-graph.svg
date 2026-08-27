@@ -1,23 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Company knowledge graph traversal">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Company knowledge graph traversal">
   <title>Company knowledge graph — one question, many hops</title>
+  <style>
+    .flow { animation: flow 1.6s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -26; } }
+    .flow-slow { animation: flow-slow 2.4s linear infinite; }
+    @keyframes flow-slow { to { stroke-dashoffset: 26; } }
+    .halo { transform-box: fill-box; transform-origin: center; animation: halo 3.2s ease-in-out infinite; }
+    @keyframes halo { 0%, 100% { transform: scale(0.85); opacity: 0.22; } 50% { transform: scale(1.5); opacity: 0.03; } }
+    .blink { animation: blink 1.1s steps(1, end) infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .sweep { animation: sweep 5.5s linear infinite; }
+    @keyframes sweep { from { transform: translateX(-320px); } to { transform: translateX(1000px); } }
+
+@keyframes probe {
+  0.00% { transform: translate(92.0px, 120.0px); }
+  13.62% { transform: translate(200.0px, 82.0px); }
+  34.41% { transform: translate(360.0px, 152.0px); }
+  56.28% { transform: translate(530.0px, 82.0px); }
+  78.16% { transform: translate(700.0px, 152.0px); }
+  100.00% { transform: translate(872.0px, 88.0px); }
+}
+    .probe { animation: probe 7.0s linear infinite, probefade 7.0s linear infinite; }
+    @keyframes probefade { 0%, 55% { opacity: 1; } 56%, 100% { opacity: 0; } }
+    .beam { stroke-dasharray: 1400; animation: beam 7.0s linear infinite; }
+    @keyframes beam { 0% { stroke-dashoffset: 1400; } 55%, 85% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 1400; } }
+    .qglow { transform-box: fill-box; transform-origin: center; animation: qglow 2.4s ease-in-out infinite; }
+    @keyframes qglow { 0%, 100% { transform: scale(0.8); } 50% { transform: scale(1.25); } }
+    .hit0 { animation: hit0 7.0s linear infinite; }
+    @keyframes hit0 { 0%, 7.86% { opacity: 0; } 13.86% { opacity: 1; } 57.86%, 100% { opacity: 0.35; } }
+    .hit1 { animation: hit1 7.0s linear infinite; }
+    @keyframes hit1 { 0%, 18.14% { opacity: 0; } 24.14% { opacity: 1; } 68.14%, 100% { opacity: 0.35; } }
+    .hit2 { animation: hit2 7.0s linear infinite; }
+    @keyframes hit2 { 0%, 28.43% { opacity: 0; } 34.43% { opacity: 1; } 78.43%, 100% { opacity: 0.35; } }
+    .hit3 { animation: hit3 7.0s linear infinite; }
+    @keyframes hit3 { 0%, 38.71% { opacity: 0; } 44.71% { opacity: 1; } 88.71%, 100% { opacity: 0.35; } }
+    .hit4 { animation: hit4 7.0s linear infinite; }
+    @keyframes hit4 { 0%, 49.00% { opacity: 0; } 55.00% { opacity: 1; } 99.00%, 100% { opacity: 0.35; } }  </style>
   <defs>
-    <linearGradient id="qGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7C5CFF"/><stop offset="50%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#F471B5"/>
-    </linearGradient>
-    <pattern id="qgrid" width="26" height="26" patternUnits="userSpaceOnUse">
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
       <path d="M26 0H0V26" fill="none" stroke="#151D27" stroke-width="1"/>
     </pattern>
-    <radialGradient id="qglow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.5"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="qcard"><rect width="1000" height="260" rx="18"/></clipPath>
+    <clipPath id="card"><rect width="1000" height="260" rx="18"/></clipPath>
+    <linearGradient id="qGrad" gradientUnits="userSpaceOnUse" x1="74" y1="0" x2="872" y2="0">
+      <stop offset="0%" stop-color="#7C5CFF"/><stop offset="50%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#F471B5"/>
+    </linearGradient>
+    <radialGradient id="qglowGrad"><stop offset="0%" stop-color="#22D3EE" stop-opacity="0.5"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
   </defs>
-  <g clip-path="url(#qcard)">
+  <g clip-path="url(#card)">
     <rect width="1000" height="260" fill="#0B0F14"/>
-    <rect width="1000" height="260" fill="url(#qgrid)" opacity="0.55"/>
-    <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
-      <text x="54" y="36" font-size="12" letter-spacing="3" fill="#8B97A8">COMPANY KNOWLEDGE GRAPH &#183; <tspan fill="#F471B5">ONE QUESTION, MANY HOPS</tspan></text>
-    </g>
+    <rect width="1000" height="260" fill="url(#grid)" opacity="0.55"/>
+    <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace"><text x="54" y="36" font-size="12" letter-spacing="3" fill="#8B97A8">COMPANY KNOWLEDGE GRAPH &#183; <tspan fill="#F471B5">ONE QUESTION, MANY HOPS</tspan></text></g>
     <g stroke="#22D3EE" stroke-width="1" opacity="0.16" fill="none">
       <path d="M268 205 L360 152"/><path d="M452 40 L530 82"/><path d="M620 208 L700 152"/><path d="M800 42 L872 88"/><path d="M952 178 L872 88"/><path d="M150 190 L200 82"/>
       <path d="M268 205 L200 82"/><path d="M620 208 L530 82"/><path d="M452 40 L360 152"/>
@@ -30,57 +62,43 @@
       <circle cx="952" cy="178" r="4"/>
       <circle cx="150" cy="190" r="4"/>
     </g>
-    <path id="hop" d="M92 120 L200 82 L360 152 L530 82 L700 152 L872 88" fill="none" stroke="#1F2A37" stroke-width="2"/>
-    <path d="M92 120 L200 82 L360 152 L530 82 L700 152 L872 88" fill="none" stroke="url(#qGrad)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="1400" stroke-dashoffset="1400">
-      <animate attributeName="stroke-dashoffset" values="1400;0;0;1400" keyTimes="0;0.55;0.85;1" dur="7.0s" repeatCount="indefinite"/>
-    </path>
+    <path d="M92 120 L200 82 L360 152 L530 82 L700 152 L872 88" fill="none" stroke="#1F2A37" stroke-width="2"/>
+    <path class="beam" d="M92 120 L200 82 L360 152 L530 82 L700 152 L872 88" fill="none" stroke="url(#qGrad)" stroke-width="2.4" stroke-linecap="round"/>
     <g>
-      <circle cx="200" cy="82" r="30" fill="url(#qglow)" opacity="0"><animate attributeName="opacity" values="0;0.9;0" dur="7.0s" begin="0.55s" keyTimes="0;0.06;0.22" repeatCount="indefinite"/></circle>
-      <rect x="154.6" y="67.0" width="90.8" height="30" rx="15" fill="#0E141B" stroke="#25313F" stroke-width="1.2"/>
-      <rect x="154.6" y="67.0" width="90.8" height="30" rx="15" fill="none" stroke="#7C5CFF" stroke-width="1.6" opacity="0"><animate attributeName="opacity" values="0;1;0.35" dur="7.0s" begin="0.55s" keyTimes="0;0.06;0.5" repeatCount="indefinite"/></rect>
+      <rect x="154.6" y="67" width="90.8" height="30" rx="15" fill="#0E141B" stroke="#25313F" stroke-width="1.2"/>
+      <rect class="hit0" x="154.6" y="67" width="90.8" height="30" rx="15" fill="none" stroke="#7C5CFF" stroke-width="1.6" opacity="0"/>
       <circle cx="169.6" cy="82" r="3.4" fill="#7C5CFF"/>
       <text x="208" y="86.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.3" fill="#D5DEEA">EMPLOYEE</text>
     </g>
     <g>
-      <circle cx="360" cy="152" r="30" fill="url(#qglow)" opacity="0"><animate attributeName="opacity" values="0;0.9;0" dur="7.0s" begin="1.27s" keyTimes="0;0.06;0.22" repeatCount="indefinite"/></circle>
-      <rect x="318.4" y="137.0" width="83.2" height="30" rx="15" fill="#0E141B" stroke="#25313F" stroke-width="1.2"/>
-      <rect x="318.4" y="137.0" width="83.2" height="30" rx="15" fill="none" stroke="#22D3EE" stroke-width="1.6" opacity="0"><animate attributeName="opacity" values="0;1;0.35" dur="7.0s" begin="1.27s" keyTimes="0;0.06;0.5" repeatCount="indefinite"/></rect>
+      <rect x="318.4" y="137" width="83.2" height="30" rx="15" fill="#0E141B" stroke="#25313F" stroke-width="1.2"/>
+      <rect class="hit1" x="318.4" y="137" width="83.2" height="30" rx="15" fill="none" stroke="#22D3EE" stroke-width="1.6" opacity="0"/>
       <circle cx="333.4" cy="152" r="3.4" fill="#22D3EE"/>
       <text x="368" y="156.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.3" fill="#D5DEEA">PROJECT</text>
     </g>
     <g>
-      <circle cx="530" cy="82" r="30" fill="url(#qglow)" opacity="0"><animate attributeName="opacity" values="0;0.9;0" dur="7.0s" begin="1.99s" keyTimes="0;0.06;0.22" repeatCount="indefinite"/></circle>
-      <rect x="484.6" y="67.0" width="90.8" height="30" rx="15" fill="#0E141B" stroke="#25313F" stroke-width="1.2"/>
-      <rect x="484.6" y="67.0" width="90.8" height="30" rx="15" fill="none" stroke="#F471B5" stroke-width="1.6" opacity="0"><animate attributeName="opacity" values="0;1;0.35" dur="7.0s" begin="1.99s" keyTimes="0;0.06;0.5" repeatCount="indefinite"/></rect>
+      <rect x="484.6" y="67" width="90.8" height="30" rx="15" fill="#0E141B" stroke="#25313F" stroke-width="1.2"/>
+      <rect class="hit2" x="484.6" y="67" width="90.8" height="30" rx="15" fill="none" stroke="#F471B5" stroke-width="1.6" opacity="0"/>
       <circle cx="499.6" cy="82" r="3.4" fill="#F471B5"/>
       <text x="538" y="86.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.3" fill="#D5DEEA">DECISION</text>
     </g>
     <g>
-      <circle cx="700" cy="152" r="30" fill="url(#qglow)" opacity="0"><animate attributeName="opacity" values="0;0.9;0" dur="7.0s" begin="2.71s" keyTimes="0;0.06;0.22" repeatCount="indefinite"/></circle>
-      <rect x="654.6" y="137.0" width="90.8" height="30" rx="15" fill="#0E141B" stroke="#25313F" stroke-width="1.2"/>
-      <rect x="654.6" y="137.0" width="90.8" height="30" rx="15" fill="none" stroke="#22D3EE" stroke-width="1.6" opacity="0"><animate attributeName="opacity" values="0;1;0.35" dur="7.0s" begin="2.71s" keyTimes="0;0.06;0.5" repeatCount="indefinite"/></rect>
+      <rect x="654.6" y="137" width="90.8" height="30" rx="15" fill="#0E141B" stroke="#25313F" stroke-width="1.2"/>
+      <rect class="hit3" x="654.6" y="137" width="90.8" height="30" rx="15" fill="none" stroke="#22D3EE" stroke-width="1.6" opacity="0"/>
       <circle cx="669.6" cy="152" r="3.4" fill="#22D3EE"/>
       <text x="708" y="156.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.3" fill="#D5DEEA">DOCUMENT</text>
     </g>
     <g>
-      <circle cx="872" cy="88" r="30" fill="url(#qglow)" opacity="0"><animate attributeName="opacity" values="0;0.9;0" dur="7.0s" begin="3.43s" keyTimes="0;0.06;0.22" repeatCount="indefinite"/></circle>
-      <rect x="826.6" y="73.0" width="90.8" height="30" rx="15" fill="#0E141B" stroke="#25313F" stroke-width="1.2"/>
-      <rect x="826.6" y="73.0" width="90.8" height="30" rx="15" fill="none" stroke="#7C5CFF" stroke-width="1.6" opacity="0"><animate attributeName="opacity" values="0;1;0.35" dur="7.0s" begin="3.43s" keyTimes="0;0.06;0.5" repeatCount="indefinite"/></rect>
+      <rect x="826.6" y="73" width="90.8" height="30" rx="15" fill="#0E141B" stroke="#25313F" stroke-width="1.2"/>
+      <rect class="hit4" x="826.6" y="73" width="90.8" height="30" rx="15" fill="none" stroke="#7C5CFF" stroke-width="1.6" opacity="0"/>
       <circle cx="841.6" cy="88" r="3.4" fill="#7C5CFF"/>
       <text x="880" y="92.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.3" fill="#D5DEEA">CUSTOMER</text>
     </g>
-    <g>
-      <circle cx="74" cy="120" r="26" fill="url(#qglow)"><animate attributeName="r" values="20;32;20" dur="2.4s" repeatCount="indefinite"/></circle>
-      <circle cx="74" cy="120" r="18" fill="#0E141B" stroke="url(#qGrad)" stroke-width="2.2"/>
-      <text x="74" y="127" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="18" font-weight="700" fill="#22D3EE">?</text>
-    </g>
-    <circle r="4.5" fill="#FFFFFF">
-      <animateMotion dur="7.0s" repeatCount="indefinite" keyTimes="0;0.55;1" keyPoints="0;1;1" calcMode="linear"><mpath xlink:href="#hop" href="#hop"/></animateMotion>
-      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.55;0.6;1" dur="7.0s" repeatCount="indefinite"/>
-    </circle>
-    <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
-      <text x="54" y="234" font-size="12.5" fill="#5C6B7E"><tspan fill="#22D3EE">&gt;</tspan> who owns the churn model, what did they decide in june, and which doc says why?</text>
-    </g>
+    <circle class="qglow" cx="74" cy="120" r="26" fill="url(#qglowGrad)"/>
+    <circle cx="74" cy="120" r="18" fill="#0E141B" stroke="url(#qGrad)" stroke-width="2.2"/>
+    <text x="74" y="127" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="18" font-weight="700" fill="#22D3EE">?</text>
+    <circle class="probe" r="4.5" fill="#FFFFFF"/>
+    <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace"><text x="54" y="234" font-size="12.5" fill="#5C6B7E"><tspan fill="#22D3EE">&gt;</tspan> who owns the churn model, what did they decide in june, and which doc says why?</text></g>
     <rect x="0.5" y="0.5" width="999" height="259" rx="18" fill="none" stroke="#1F2A37"/>
   </g>
 </svg>
