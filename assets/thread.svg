@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="Career thread">
+  <title>The thread — data engineering to physical AI</title>
+  <defs>
+    <linearGradient id="tGrad" gradientUnits="userSpaceOnUse" x1="56" y1="0" x2="660" y2="0">
+      <stop offset="0%" stop-color="#7C5CFF"/><stop offset="55%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#F471B5"/>
+    </linearGradient>
+    <pattern id="tgrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#151D27" stroke-width="1"/>
+    </pattern>
+    <clipPath id="tcard"><rect width="1000" height="240" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#tcard)">
+    <rect width="1000" height="240" fill="#0B0F14"/>
+    <rect width="1000" height="240" fill="url(#tgrid)" opacity="0.55"/>
+    <path id="spine" d="M56 110 L660 110" stroke="url(#tGrad)" stroke-width="2" fill="none" stroke-dasharray="6 7" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="26;0" dur="1.7s" repeatCount="indefinite"/>
+    </path>
+    <path id="br1" d="M660 110 C 730 110, 760 62, 818 62" stroke="#22D3EE" stroke-width="1.6" fill="none" stroke-dasharray="5 7" opacity="0.7">
+      <animate attributeName="stroke-dashoffset" values="24;0" dur="1.9s" repeatCount="indefinite"/>
+    </path>
+    <path id="br2" d="M660 110 C 730 110, 760 168, 818 168" stroke="#F471B5" stroke-width="1.6" fill="none" stroke-dasharray="5 7" opacity="0.7">
+      <animate attributeName="stroke-dashoffset" values="24;0" dur="1.9s" repeatCount="indefinite"/>
+    </path>
+    <circle r="3.6" fill="#FFFFFF"><animateMotion dur="3.4s" repeatCount="indefinite"><mpath xlink:href="#spine" href="#spine"/></animateMotion></circle>
+    <circle r="3" fill="#22D3EE"><animateMotion dur="3.4s" begin="1.2s" repeatCount="indefinite"><mpath xlink:href="#br1" href="#br1"/></animateMotion></circle>
+    <circle r="3" fill="#F471B5"><animateMotion dur="3.4s" begin="2.0s" repeatCount="indefinite"><mpath xlink:href="#br2" href="#br2"/></animateMotion></circle>
+    <g>
+      <circle cx="150" cy="110" r="14" fill="#7C5CFF" opacity="0.18"><animate attributeName="r" values="11;20;11" dur="3s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.22;0.02;0.22" dur="3s" begin="0.0s" repeatCount="indefinite"/></circle>
+      <circle cx="150" cy="110" r="7" fill="#0B0F14" stroke="#7C5CFF" stroke-width="2.2"/>
+      <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
+        <text x="150" y="80" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#E4EAF2">DATA ENGINEERING</text>
+        <text x="150" y="142" font-size="10" letter-spacing="0.6" fill="#5C6B7E">pipelines · warehouses</text>
+      </g>
+    </g>
+    <g>
+      <circle cx="390" cy="110" r="14" fill="#22D3EE" opacity="0.18"><animate attributeName="r" values="11;20;11" dur="3s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.22;0.02;0.22" dur="3s" begin="0.8s" repeatCount="indefinite"/></circle>
+      <circle cx="390" cy="110" r="7" fill="#0B0F14" stroke="#22D3EE" stroke-width="2.2"/>
+      <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
+        <text x="390" y="80" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#E4EAF2">DATA CONSULTING</text>
+        <text x="390" y="142" font-size="10" letter-spacing="0.6" fill="#5C6B7E">amsterdam</text>
+      </g>
+    </g>
+    <g>
+      <circle cx="630" cy="110" r="14" fill="#F471B5" opacity="0.18"><animate attributeName="r" values="11;20;11" dur="3s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.22;0.02;0.22" dur="3s" begin="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="630" cy="110" r="7" fill="#0B0F14" stroke="#F471B5" stroke-width="2.2"/>
+      <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
+        <text x="630" y="80" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#E4EAF2">FOUNDING AI ENGINEER</text>
+        <text x="630" y="142" font-size="10" letter-spacing="0.6" fill="#5C6B7E">ubundi · stellenbosch</text>
+      </g>
+    </g>
+    <g>
+      <circle cx="830" cy="62" r="14" fill="#22D3EE" opacity="0.18"><animate attributeName="r" values="11;20;11" dur="3s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.22;0.02;0.22" dur="3s" begin="1.4s" repeatCount="indefinite"/></circle>
+      <circle cx="830" cy="62" r="7" fill="#0B0F14" stroke="#22D3EE" stroke-width="2.2"/>
+      <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
+        <text x="830" y="28" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#E4EAF2">CONTEXT-AWARE AI</text>
+        <text x="830" y="44" font-size="10" letter-spacing="0.6" fill="#5C6B7E">rag · graphrag · kgs</text>
+      </g>
+    </g>
+    <g>
+      <circle cx="830" cy="168" r="14" fill="#F471B5" opacity="0.18"><animate attributeName="r" values="11;20;11" dur="3s" begin="2.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.22;0.02;0.22" dur="3s" begin="2.0s" repeatCount="indefinite"/></circle>
+      <circle cx="830" cy="168" r="7" fill="#0B0F14" stroke="#F471B5" stroke-width="2.2"/>
+      <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
+        <text x="830" y="199" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#E4EAF2">FIRST MOTIVE</text>
+        <text x="830" y="216" font-size="10" letter-spacing="0.6" fill="#5C6B7E">the data engine for physical ai</text>
+      </g>
+    </g>
+    <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
+      <text x="28" y="30" font-size="10.5" letter-spacing="2.6" fill="#5C6B7E">THE THREAD &#183; <tspan fill="#7C5CFF">SAME QUESTION, NEW MODALITY</tspan></text>
+    </g>
+    <rect x="0.5" y="0.5" width="999" height="239" rx="18" fill="none" stroke="#1F2A37"/>
+  </g>
+</svg>

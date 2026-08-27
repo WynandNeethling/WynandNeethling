@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46" role="img" aria-label="What I work on">
+  <title>Founding AI Engineer @ Ubundi</title>
+  <defs>
+    <clipPath id="t0"><rect x="302.1" y="0" width="0" height="46">
+      <animate attributeName="width" values="0;0;295.8;295.8;0;0" keyTimes="0.0000;0.0000;0.0800;0.1675;0.1975;1.0000" dur="20.0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="t1"><rect x="215.4" y="0" width="0" height="46">
+      <animate attributeName="width" values="0;0;469.2;469.2;0;0" keyTimes="0.0000;0.2000;0.2800;0.3675;0.3975;1.0000" dur="20.0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="t2"><rect x="261.3" y="0" width="0" height="46">
+      <animate attributeName="width" values="0;0;377.4;377.4;0;0" keyTimes="0.0000;0.4000;0.4800;0.5675;0.5975;1.0000" dur="20.0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="t3"><rect x="225.6" y="0" width="0" height="46">
+      <animate attributeName="width" values="0;0;448.8;448.8;0;0" keyTimes="0.0000;0.6000;0.6800;0.7675;0.7975;1.0000" dur="20.0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="t4"><rect x="276.6" y="0" width="0" height="46">
+      <animate attributeName="width" values="0;0;346.8;346.8;0;0" keyTimes="0.0000;0.8000;0.8800;0.9675;0.9975;1.0000" dur="20.0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+  <rect width="900" height="46" fill="none"/>
+  <g opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0000;0.0015;0.1975;0.1990;1.0000" dur="20.0s" repeatCount="indefinite"/>
+    <g clip-path="url(#t0)">
+      <text x="450.0" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#22D3EE">founding ai engineer @ ubundi</text>
+    </g>
+    <rect x="302.1" y="16" width="2.6" height="18" fill="#22D3EE">
+      <animate attributeName="x" values="302.1;302.1;597.9;597.9;302.1;302.1" keyTimes="0.0000;0.0000;0.0800;0.1675;0.1975;1.0000" dur="20.0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2000;0.2015;0.3975;0.3990;1.0000" dur="20.0s" repeatCount="indefinite"/>
+    <g clip-path="url(#t1)">
+      <text x="450.0" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#7C5CFF">knowledge graphs · graphrag · context-aware ai</text>
+    </g>
+    <rect x="215.4" y="16" width="2.6" height="18" fill="#7C5CFF">
+      <animate attributeName="x" values="215.4;215.4;684.6;684.6;215.4;215.4" keyTimes="0.0000;0.2000;0.2800;0.3675;0.3975;1.0000" dur="20.0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4000;0.4015;0.5975;0.5990;1.0000" dur="20.0s" repeatCount="indefinite"/>
+    <g clip-path="url(#t2)">
+      <text x="450.0" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#F471B5">enterprise ai that survives real data</text>
+    </g>
+    <rect x="261.3" y="16" width="2.6" height="18" fill="#F471B5">
+      <animate attributeName="x" values="261.3;261.3;638.7;638.7;261.3;261.3" keyTimes="0.0000;0.4000;0.4800;0.5675;0.5975;1.0000" dur="20.0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6000;0.6015;0.7975;0.7990;1.0000" dur="20.0s" repeatCount="indefinite"/>
+    <g clip-path="url(#t3)">
+      <text x="450.0" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#22D3EE">ex-data consultant, amsterdam → stellenbosch</text>
+    </g>
+    <rect x="225.6" y="16" width="2.6" height="18" fill="#22D3EE">
+      <animate attributeName="x" values="225.6;225.6;674.4;674.4;225.6;225.6" keyTimes="0.0000;0.6000;0.6800;0.7675;0.7975;1.0000" dur="20.0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8000;0.8015;0.9975;0.9990;1.0000" dur="20.0s" repeatCount="indefinite"/>
+    <g clip-path="url(#t4)">
+      <text x="450.0" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17.0" font-weight="600" fill="#7C5CFF">now: a data engine for physical ai</text>
+    </g>
+    <rect x="276.6" y="16" width="2.6" height="18" fill="#7C5CFF">
+      <animate attributeName="x" values="276.6;276.6;623.4;623.4;276.6;276.6" keyTimes="0.0000;0.8000;0.8800;0.9675;0.9975;1.0000" dur="20.0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

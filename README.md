@@ -2,9 +2,7 @@
 
 <img src="assets/header-graph.svg" width="100%" alt="Wynand Neethling — Founding AI Engineer @ Ubundi" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=800&color=22D3EE&center=true&vCenter=true&width=880&lines=Founding+AI+Engineer+at+Ubundi;Knowledge+graphs+%C2%B7+GraphRAG+%C2%B7+context-aware+AI;Enterprise+AI+that+survives+contact+with+real+data;Ex-data+consultant+in+Amsterdam%2C+now+in+Stellenbosch;Building+a+data+engine+for+physical+AI" alt="Typing SVG" />
-</a>
+<img src="assets/typing.svg" width="900" alt="Founding AI Engineer at Ubundi — knowledge graphs, GraphRAG, context-aware AI" />
 
 <br />
 
@@ -30,21 +28,9 @@ The through-line is the same in every role: **the model is rarely the hard part.
 
 ## The Thread
 
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0E141B','primaryTextColor':'#D5DEEA','primaryBorderColor':'#7C5CFF','lineColor':'#22D3EE','fontFamily':'ui-monospace, monospace','fontSize':'13px'}}}%%
-flowchart LR
-    A["Data Engineering<br/>pipelines · warehouses"] --> B["Data Consulting<br/>Amsterdam"]
-    B --> C["Founding AI Engineer<br/>Ubundi"]
-    C --> D["Context-Aware AI<br/>RAG · GraphRAG · KGs"]
-    C --> E["First Motive<br/>data engine for physical AI"]
-    D -.->|same problem,<br/>new modality| E
-
-    style A stroke:#334155,fill:#0E141B
-    style B stroke:#334155,fill:#0E141B
-    style C stroke:#7C5CFF,fill:#0E141B,stroke-width:2px
-    style D stroke:#22D3EE,fill:#0E141B
-    style E stroke:#F471B5,fill:#0E141B
-```
+<div align="center">
+  <img src="assets/thread.svg" width="100%" alt="Data engineering to data consulting to founding AI engineer to physical AI" />
+</div>
 
 Every job I have had is some version of the same question: *how do you get the right information to the thing that has to make the decision?* Warehouses answered it for dashboards. Knowledge graphs answer it for agents. Trajectory data answers it for robots.
 
