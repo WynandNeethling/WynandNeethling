@@ -214,7 +214,7 @@ def typing():
 # ------------------------------------------------------------------ thread
 def thread():
     W, H, SPINE = 1000, 240, 110
-    main = [(150, "DATA ENGINEERING", "pipelines · warehouses", VIO),
+    main = [(150, "DATA ENGINEERING INTERN", "capitec bank", VIO),
             (390, "DATA CONSULTING", "amsterdam", CYA),
             (630, "FOUNDING AI ENGINEER", "ubundi · stellenbosch", PNK)]
     br1 = bezier((660, SPINE), (730, SPINE), (760, 62), (818, 62))
@@ -252,7 +252,7 @@ def thread():
 
     for i, (x, title, sub, col) in enumerate(main):
         station(x, SPINE, title, sub, col, SPINE - 30, SPINE + 32, i * 0.8)
-    station(830, 62, "CONTEXT-AWARE AI", "rag &#183; graphrag &#183; kgs", CYA, 28, 44, 1.4)
+    station(830, 62, "ENTERPRISE AI SOLUTIONS", "agents &#183; mcps &#183; kgs", CYA, 28, 44, 1.4)
     station(830, 168, "FIRST MOTIVE", "the data engine for physical ai", PNK, 199, 216, 2.0)
     a(f'    <g font-family="{MONO}"><text x="28" y="30" font-size="10.5" letter-spacing="2.6" fill="{DIM}">THE THREAD &#183; <tspan fill="{VIO}">SAME QUESTION, NEW MODALITY</tspan></text></g>')
     s.append(frame(W, H))

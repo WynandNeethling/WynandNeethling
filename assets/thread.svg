@@ -92,8 +92,8 @@
       <circle class="halo" cx="150" cy="110" r="14" fill="#7C5CFF" style="animation-delay: 0.0s"/>
       <circle cx="150" cy="110" r="7" fill="#0B0F14" stroke="#7C5CFF" stroke-width="2.2"/>
       <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
-        <text x="150" y="80" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#E4EAF2">DATA ENGINEERING</text>
-        <text x="150" y="142" font-size="10" letter-spacing="0.6" fill="#5C6B7E">pipelines · warehouses</text>
+        <text x="150" y="80" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#E4EAF2">DATA ENGINEERING INTERN</text>
+        <text x="150" y="142" font-size="10" letter-spacing="0.6" fill="#5C6B7E">capitec bank</text>
       </g>
     </g>
     <g>
@@ -116,8 +116,8 @@
       <circle class="halo" cx="830" cy="62" r="14" fill="#22D3EE" style="animation-delay: 1.4s"/>
       <circle cx="830" cy="62" r="7" fill="#0B0F14" stroke="#22D3EE" stroke-width="2.2"/>
       <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
-        <text x="830" y="28" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#E4EAF2">CONTEXT-AWARE AI</text>
-        <text x="830" y="44" font-size="10" letter-spacing="0.6" fill="#5C6B7E">rag &#183; graphrag &#183; kgs</text>
+        <text x="830" y="28" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#E4EAF2">ENTERPRISE AI SOLUTIONS</text>
+        <text x="830" y="44" font-size="10" letter-spacing="0.6" fill="#5C6B7E">agents &#183; mcps &#183; kgs</text>
       </g>
     </g>
     <g>

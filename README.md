@@ -29,7 +29,7 @@ The through-line is the same in every role: **the model is rarely the hard part.
 ## The Thread
 
 <div align="center">
-  <img src="assets/thread.svg" width="100%" alt="Data engineering to data consulting to founding AI engineer to physical AI" />
+  <img src="assets/thread.svg" width="100%" alt="Data engineering intern at Capitec, to data consulting in Amsterdam, to founding AI engineer at Ubundi, branching into enterprise AI solutions and First Motive" />
 </div>
 
 Every job I have had is some version of the same question: *how do you get the right information to the thing that has to make the decision?* Warehouses answered it for dashboards. Knowledge graphs answer it for agents. Trajectory data answers it for robots.
