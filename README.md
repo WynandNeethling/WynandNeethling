@@ -199,12 +199,4 @@ Context first, then the model. Small systems that are easy to inspect beat cleve
 <a href="https://www.linkedin.com/in/wynand-neethling/"><img src="https://img.shields.io/badge/LinkedIn-Connect-22D3EE?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0F14" alt="LinkedIn" /></a>
 <a href="mailto:wynand@ubundi.co.za"><img src="https://img.shields.io/badge/Email-Say%20hello-F471B5?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0B0F14" alt="Email" /></a>
 
-<br /><br />
-
-<i>Open to talking about knowledge graphs, GraphRAG, context-aware systems, and robot data.</i>
-
-<br /><br />
-
-<img src="assets/footer.svg" width="100%" alt="" />
-
 </div>

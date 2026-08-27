@@ -380,34 +380,5 @@ def company_graph():
     write("company-graph.svg", "\n".join(s))
 
 
-# ------------------------------------------------------------------ footer
-def footer():
-    W, H = 1000, 90
-    css = [BASE_CSS, travel_keyframes("fdot", [(40, 46), (960, 46)])]
-    defs = f'''    <linearGradient id="fGrad" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="960" y2="0">
-      <stop offset="0%" stop-color="{VIO}"/><stop offset="50%" stop-color="{CYA}"/><stop offset="100%" stop-color="{PNK}"/>
-    </linearGradient>
-    <linearGradient id="fFade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="{CYA}" stop-opacity="0"/>
-      <stop offset="50%" stop-color="{CYA}" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="{CYA}" stop-opacity="0"/>
-    </linearGradient>
-'''
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="footer">',
-         '  <title>graphs · context · robots</title>',
-         '  <style>' + "\n".join(css) + '  </style>', card(W, H, defs, rx=16)]
-    a = s.append
-    a(f'    <path class="flow" d="M40 46 L960 46" stroke="url(#fGrad)" stroke-width="1.6" fill="none" opacity="0.55" stroke-dasharray="6 8"/>')
-    for i, (x, col) in enumerate([(180, VIO), (400, CYA), (620, PNK), (840, VIO)]):
-        a(f'    <circle class="halo" cx="{x}" cy="46" r="12" fill="{col}" style="animation-delay: {i*0.7}s"/>')
-        a(f'    <circle cx="{x}" cy="46" r="5" fill="{BG}" stroke="{col}" stroke-width="2"/>')
-    a('    <circle r="3.4" fill="#FFFFFF" opacity="0.9" style="animation: fdot 4.6s linear infinite"/>')
-    a(f'    <circle r="2.6" fill="{PNK}" opacity="0.9" style="animation: fdot 4.6s linear 2.3s infinite"/>')
-    a(f'    <text x="500" y="76" text-anchor="middle" font-family="{MONO}" font-size="11" letter-spacing="3.6" fill="{DIM}">GRAPHS &#183; CONTEXT &#183; ROBOTS</text>')
-    a(f'    <rect class="sweep" x="0" y="0" width="300" height="{H}" fill="url(#fFade)"/>')
-    s.append(frame(W, H, rx=16))
-    write("footer.svg", "\n".join(s))
-
-
 if __name__ == "__main__":
-    header(); typing(); thread(); pipeline(); company_graph(); footer()
+    header(); typing(); thread(); pipeline(); company_graph()
