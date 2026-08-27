@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="First Motive data engine for physical AI">
+  <title>First Motive — the data engine for physical AI</title>
+  <defs>
+    <linearGradient id="pGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C5CFF"/><stop offset="50%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#F471B5"/>
+    </linearGradient>
+    <pattern id="pgrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#151D27" stroke-width="1"/>
+    </pattern>
+    <clipPath id="pcard"><rect width="1000" height="240" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#pcard)">
+    <rect width="1000" height="240" fill="#0B0F14"/>
+    <rect width="1000" height="240" fill="url(#pgrid)" opacity="0.55"/>
+    <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
+      <circle cx="63" cy="34" r="4" fill="#F471B5"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+      <text x="78" y="38" font-size="12" letter-spacing="3" fill="#8B97A8">FIRST MOTIVE &#183; <tspan fill="#22D3EE">DATA ENGINE FOR PHYSICAL AI</tspan></text>
+    </g>
+    <g>
+      <rect x="59" y="70" width="132" height="62" rx="10" fill="#0E141B" stroke="#1F2A37"/>
+      <rect x="59" y="70" width="132" height="62" rx="10" fill="none" stroke="#7C5CFF" stroke-width="1.4" opacity="0.12">
+        <animate attributeName="opacity" values="0.12;0.95;0.12" dur="7.2s" begin="0.0s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <rect x="73" y="69" width="104" height="2.5" rx="1.2" fill="#7C5CFF" opacity="0.25">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="7.2s" begin="0.0s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
+        <text x="125.0" y="100" font-size="13" font-weight="700" letter-spacing="1.6" fill="#E4EAF2">SENSE</text>
+        <text x="125.0" y="118" font-size="10" letter-spacing="0.6" fill="#64748B">arms · cams · imu</text>
+      </g>
+    </g>
+    <g>
+      <rect x="209" y="70" width="132" height="62" rx="10" fill="#0E141B" stroke="#1F2A37"/>
+      <rect x="209" y="70" width="132" height="62" rx="10" fill="none" stroke="#7C5CFF" stroke-width="1.4" opacity="0.12">
+        <animate attributeName="opacity" values="0.12;0.95;0.12" dur="7.2s" begin="1.2s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <rect x="223" y="69" width="104" height="2.5" rx="1.2" fill="#7C5CFF" opacity="0.25">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="7.2s" begin="1.2s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
+        <text x="275.0" y="100" font-size="13" font-weight="700" letter-spacing="1.6" fill="#E4EAF2">CAPTURE</text>
+        <text x="275.0" y="118" font-size="10" letter-spacing="0.6" fill="#64748B">mcap · rosbag</text>
+      </g>
+    </g>
+    <g>
+      <rect x="359" y="70" width="132" height="62" rx="10" fill="#0E141B" stroke="#1F2A37"/>
+      <rect x="359" y="70" width="132" height="62" rx="10" fill="none" stroke="#22D3EE" stroke-width="1.4" opacity="0.12">
+        <animate attributeName="opacity" values="0.12;0.95;0.12" dur="7.2s" begin="2.4s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <rect x="373" y="69" width="104" height="2.5" rx="1.2" fill="#22D3EE" opacity="0.25">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="7.2s" begin="2.4s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
+        <text x="425.0" y="100" font-size="13" font-weight="700" letter-spacing="1.6" fill="#E4EAF2">VALIDATE</text>
+        <text x="425.0" y="118" font-size="10" letter-spacing="0.6" fill="#64748B">sync · schema</text>
+      </g>
+    </g>
+    <g>
+      <rect x="509" y="70" width="132" height="62" rx="10" fill="#0E141B" stroke="#1F2A37"/>
+      <rect x="509" y="70" width="132" height="62" rx="10" fill="none" stroke="#22D3EE" stroke-width="1.4" opacity="0.12">
+        <animate attributeName="opacity" values="0.12;0.95;0.12" dur="7.2s" begin="3.6s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <rect x="523" y="69" width="104" height="2.5" rx="1.2" fill="#22D3EE" opacity="0.25">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="7.2s" begin="3.6s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
+        <text x="575.0" y="100" font-size="13" font-weight="700" letter-spacing="1.6" fill="#E4EAF2">CURATE</text>
+        <text x="575.0" y="118" font-size="10" letter-spacing="0.6" fill="#64748B">slice · label</text>
+      </g>
+    </g>
+    <g>
+      <rect x="659" y="70" width="132" height="62" rx="10" fill="#0E141B" stroke="#1F2A37"/>
+      <rect x="659" y="70" width="132" height="62" rx="10" fill="none" stroke="#F471B5" stroke-width="1.4" opacity="0.12">
+        <animate attributeName="opacity" values="0.12;0.95;0.12" dur="7.2s" begin="4.8s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <rect x="673" y="69" width="104" height="2.5" rx="1.2" fill="#F471B5" opacity="0.25">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="7.2s" begin="4.8s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
+        <text x="725.0" y="100" font-size="13" font-weight="700" letter-spacing="1.6" fill="#E4EAF2">TRAIN</text>
+        <text x="725.0" y="118" font-size="10" letter-spacing="0.6" fill="#64748B">policy</text>
+      </g>
+    </g>
+    <g>
+      <rect x="809" y="70" width="132" height="62" rx="10" fill="#0E141B" stroke="#1F2A37"/>
+      <rect x="809" y="70" width="132" height="62" rx="10" fill="none" stroke="#F471B5" stroke-width="1.4" opacity="0.12">
+        <animate attributeName="opacity" values="0.12;0.95;0.12" dur="7.2s" begin="6.0s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <rect x="823" y="69" width="104" height="2.5" rx="1.2" fill="#F471B5" opacity="0.25">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="7.2s" begin="6.0s" repeatCount="indefinite" keyTimes="0;0.09;0.3" calcMode="linear"/>
+      </rect>
+      <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" text-anchor="middle">
+        <text x="875.0" y="100" font-size="13" font-weight="700" letter-spacing="1.6" fill="#E4EAF2">DEPLOY</text>
+        <text x="875.0" y="118" font-size="10" letter-spacing="0.6" fill="#64748B">fleet</text>
+      </g>
+    </g>
+    <g>
+      <path id="c0" d="M193 101.0 L203 101.0" stroke="url(#pGrad)" stroke-width="1.4" fill="none" stroke-dasharray="4 5" opacity="0.8">
+        <animate attributeName="stroke-dashoffset" values="18;0" dur="1.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M202 97.5 L207 101.0 L202 104.5 Z" fill="#22D3EE" opacity="0.85"/>
+      <circle r="3" fill="#FFFFFF" opacity="0.9"><animateMotion dur="1.1s" begin="0.0s" repeatCount="indefinite"><mpath xlink:href="#c0" href="#c0"/></animateMotion></circle>
+    </g>
+    <g>
+      <path id="c1" d="M343 101.0 L353 101.0" stroke="url(#pGrad)" stroke-width="1.4" fill="none" stroke-dasharray="4 5" opacity="0.8">
+        <animate attributeName="stroke-dashoffset" values="18;0" dur="1.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M352 97.5 L357 101.0 L352 104.5 Z" fill="#22D3EE" opacity="0.85"/>
+      <circle r="3" fill="#FFFFFF" opacity="0.9"><animateMotion dur="1.15s" begin="0.28s" repeatCount="indefinite"><mpath xlink:href="#c1" href="#c1"/></animateMotion></circle>
+    </g>
+    <g>
+      <path id="c2" d="M493 101.0 L503 101.0" stroke="url(#pGrad)" stroke-width="1.4" fill="none" stroke-dasharray="4 5" opacity="0.8">
+        <animate attributeName="stroke-dashoffset" values="18;0" dur="1.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M502 97.5 L507 101.0 L502 104.5 Z" fill="#22D3EE" opacity="0.85"/>
+      <circle r="3" fill="#FFFFFF" opacity="0.9"><animateMotion dur="1.2s" begin="0.56s" repeatCount="indefinite"><mpath xlink:href="#c2" href="#c2"/></animateMotion></circle>
+    </g>
+    <g>
+      <path id="c3" d="M643 101.0 L653 101.0" stroke="url(#pGrad)" stroke-width="1.4" fill="none" stroke-dasharray="4 5" opacity="0.8">
+        <animate attributeName="stroke-dashoffset" values="18;0" dur="1.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M652 97.5 L657 101.0 L652 104.5 Z" fill="#22D3EE" opacity="0.85"/>
+      <circle r="3" fill="#FFFFFF" opacity="0.9"><animateMotion dur="1.25s" begin="0.84s" repeatCount="indefinite"><mpath xlink:href="#c3" href="#c3"/></animateMotion></circle>
+    </g>
+    <g>
+      <path id="c4" d="M793 101.0 L803 101.0" stroke="url(#pGrad)" stroke-width="1.4" fill="none" stroke-dasharray="4 5" opacity="0.8">
+        <animate attributeName="stroke-dashoffset" values="18;0" dur="1.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M802 97.5 L807 101.0 L802 104.5 Z" fill="#22D3EE" opacity="0.85"/>
+      <circle r="3" fill="#FFFFFF" opacity="0.9"><animateMotion dur="1.3s" begin="1.12s" repeatCount="indefinite"><mpath xlink:href="#c4" href="#c4"/></animateMotion></circle>
+    </g>
+    <g>
+      <path id="loop" d="M921 132 C 921 200, 79 200, 79 132" fill="none" stroke="#7C5CFF" stroke-width="1.3" stroke-dasharray="5 7" opacity="0.55">
+        <animate attributeName="stroke-dashoffset" values="0;24" dur="1.8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M79 140 L75 148 L83 148 Z" fill="#7C5CFF" opacity="0.8"/>
+      <circle r="2.6" fill="#F471B5"><animateMotion dur="4.2s" repeatCount="indefinite"><mpath xlink:href="#loop" href="#loop"/></animateMotion></circle>
+      <rect x="352" y="176" width="296" height="22" rx="11" fill="#0B0F14" stroke="#1F2A37"/>
+      <text x="500" y="191" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.2" fill="#8B97A8">real&#8209;world deltas &#8594; new demonstrations</text>
+    </g>
+    <rect x="0.5" y="0.5" width="999" height="239" rx="18" fill="none" stroke="#1F2A37"/>
+  </g>
+</svg>

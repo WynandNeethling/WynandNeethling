@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-label="Wynand Neethling - Founding AI Engineer at Ubundi">
+  <title>Wynand Neethling — Founding AI Engineer @ Ubundi</title>
+
+  <defs>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7C5CFF"/>
+      <stop offset="55%"  stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#F471B5"/>
+    </linearGradient>
+
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#7C5CFF"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#22D3EE" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glowVio" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#7C5CFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCya" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#1B2430" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="card"><rect x="0" y="0" width="1000" height="280" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="280" fill="#0B0F14"/>
+    <rect width="1000" height="280" fill="url(#grid)" opacity="0.5"/>
+    <ellipse cx="790" cy="140" rx="260" ry="170" fill="url(#glowVio)" opacity="0.35"/>
+    <ellipse cx="120" cy="250" rx="220" ry="140" fill="url(#glowCya)" opacity="0.22"/>
+
+    <!-- graph -->
+    <g stroke-linecap="round" fill="none">
+      <g stroke="url(#edgeGrad)" stroke-width="1.4" opacity="0.75" stroke-dasharray="5 7">
+        <path id="e1" d="M790 140 L665 62"/>
+        <path id="e2" d="M790 140 L800 40"/>
+        <path id="e3" d="M790 140 L930 78"/>
+        <path id="e4" d="M790 140 L700 148"/>
+        <path id="e5" d="M790 140 L905 168"/>
+        <path id="e6" d="M790 140 L650 228"/>
+        <path id="e7" d="M790 140 L800 245"/>
+        <path id="e8" d="M790 140 L945 225"/>
+        <animate attributeName="stroke-dashoffset" values="24;0" dur="1.6s" repeatCount="indefinite"/>
+      </g>
+      <g stroke="#22D3EE" stroke-width="1" opacity="0.28" stroke-dasharray="3 6">
+        <path id="r1" d="M665 62 L800 40"/>
+        <path id="r2" d="M800 40 L930 78"/>
+        <path id="r3" d="M930 78 L905 168"/>
+        <path id="r4" d="M905 168 L945 225"/>
+        <path id="r5" d="M945 225 L800 245"/>
+        <path id="r6" d="M800 245 L650 228"/>
+        <path id="r7" d="M650 228 L700 148"/>
+        <path id="r8" d="M700 148 L665 62"/>
+        <animate attributeName="stroke-dashoffset" values="0;18" dur="2.4s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- travelling packets -->
+    <g>
+      <circle r="2.8" fill="#F471B5"><animateMotion dur="2.6s" repeatCount="indefinite" begin="0s"><mpath xlink:href="#e2" href="#e2"/></animateMotion></circle>
+      <circle r="2.8" fill="#22D3EE"><animateMotion dur="3.1s" repeatCount="indefinite" begin="0.5s"><mpath xlink:href="#e5" href="#e5"/></animateMotion></circle>
+      <circle r="2.8" fill="#7C5CFF"><animateMotion dur="2.9s" repeatCount="indefinite" begin="1.1s"><mpath xlink:href="#e6" href="#e6"/></animateMotion></circle>
+      <circle r="2.4" fill="#22D3EE"><animateMotion dur="3.4s" repeatCount="indefinite" begin="0.8s"><mpath xlink:href="#r2" href="#r2"/></animateMotion></circle>
+      <circle r="2.4" fill="#F471B5"><animateMotion dur="3.8s" repeatCount="indefinite" begin="1.6s"><mpath xlink:href="#r5" href="#r5"/></animateMotion></circle>
+      <circle r="2.4" fill="#7C5CFF"><animateMotion dur="3.2s" repeatCount="indefinite" begin="2.1s"><mpath xlink:href="#r7" href="#r7"/></animateMotion></circle>
+    </g>
+
+    <!-- nodes -->
+    <g>
+      <g><circle cx="665" cy="62"  r="14" fill="#7C5CFF" opacity="0.16"><animate attributeName="r" values="12;20;12" dur="3.2s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.20;0.02;0.20" dur="3.2s" begin="0.0s" repeatCount="indefinite"/></circle>
+         <circle cx="665" cy="62"  r="5.5" fill="#0B0F14" stroke="#7C5CFF" stroke-width="2"/></g>
+      <g><circle cx="800" cy="40"  r="14" fill="#22D3EE" opacity="0.16"><animate attributeName="r" values="12;20;12" dur="3.2s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.20;0.02;0.20" dur="3.2s" begin="0.4s" repeatCount="indefinite"/></circle>
+         <circle cx="800" cy="40"  r="5.5" fill="#0B0F14" stroke="#22D3EE" stroke-width="2"/></g>
+      <g><circle cx="930" cy="78"  r="14" fill="#F471B5" opacity="0.16"><animate attributeName="r" values="12;20;12" dur="3.2s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.20;0.02;0.20" dur="3.2s" begin="0.8s" repeatCount="indefinite"/></circle>
+         <circle cx="930" cy="78"  r="5.5" fill="#0B0F14" stroke="#F471B5" stroke-width="2"/></g>
+      <g><circle cx="700" cy="148" r="14" fill="#22D3EE" opacity="0.16"><animate attributeName="r" values="12;20;12" dur="3.2s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.20;0.02;0.20" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></circle>
+         <circle cx="700" cy="148" r="5.5" fill="#0B0F14" stroke="#22D3EE" stroke-width="2"/></g>
+      <g><circle cx="905" cy="168" r="14" fill="#7C5CFF" opacity="0.16"><animate attributeName="r" values="12;20;12" dur="3.2s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.20;0.02;0.20" dur="3.2s" begin="1.6s" repeatCount="indefinite"/></circle>
+         <circle cx="905" cy="168" r="5.5" fill="#0B0F14" stroke="#7C5CFF" stroke-width="2"/></g>
+      <g><circle cx="650" cy="228" r="14" fill="#F471B5" opacity="0.16"><animate attributeName="r" values="12;20;12" dur="3.2s" begin="2.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.20;0.02;0.20" dur="3.2s" begin="2.0s" repeatCount="indefinite"/></circle>
+         <circle cx="650" cy="228" r="5.5" fill="#0B0F14" stroke="#F471B5" stroke-width="2"/></g>
+      <g><circle cx="800" cy="245" r="14" fill="#22D3EE" opacity="0.16"><animate attributeName="r" values="12;20;12" dur="3.2s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.20;0.02;0.20" dur="3.2s" begin="2.4s" repeatCount="indefinite"/></circle>
+         <circle cx="800" cy="245" r="5.5" fill="#0B0F14" stroke="#22D3EE" stroke-width="2"/></g>
+      <g><circle cx="945" cy="225" r="14" fill="#7C5CFF" opacity="0.16"><animate attributeName="r" values="12;20;12" dur="3.2s" begin="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.20;0.02;0.20" dur="3.2s" begin="2.8s" repeatCount="indefinite"/></circle>
+         <circle cx="945" cy="225" r="5.5" fill="#0B0F14" stroke="#7C5CFF" stroke-width="2"/></g>
+
+      <!-- hub -->
+      <circle cx="790" cy="140" r="26" fill="url(#glowVio)"><animate attributeName="r" values="22;34;22" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="790" cy="140" r="9" fill="#0B0F14" stroke="url(#nameGrad)" stroke-width="2.5"/>
+      <circle cx="790" cy="140" r="3.2" fill="#22D3EE"><animate attributeName="opacity" values="1;0.25;1" dur="1.3s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- text -->
+    <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
+      <text x="54" y="58" font-size="12" letter-spacing="3.4" fill="#22D3EE">
+        UBUNDI &#183; STELLENBOSCH, ZA &#183; UTC+2
+      </text>
+
+      <g>
+        <text x="52" y="128" font-size="40" font-weight="700" letter-spacing="1.5" fill="url(#nameGrad)">WYNAND NEETHLING</text>
+      </g>
+
+      <rect x="52" y="146" width="470" height="2" fill="#1F2A37"/>
+      <rect x="52" y="146" width="96" height="2" fill="url(#nameGrad)">
+        <animate attributeName="x" values="52;426;52" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+      </rect>
+
+      <g font-size="13.5" fill="#8B97A8">
+        <text x="54" y="180">
+          <tspan fill="#7C5CFF">&#9656;</tspan> founding ai engineer &#183; <tspan fill="#C9D4E3">ubundi</tspan>
+        </text>
+        <text x="54" y="204">
+          <tspan fill="#22D3EE">&#9656;</tspan> knowledge graphs &#183; graphrag &#183; context-aware systems
+        </text>
+        <text x="54" y="228">
+          <tspan fill="#F471B5">&#9656;</tspan> building the data engine for physical ai
+        </text>
+      </g>
+
+      <rect x="426" y="217" width="8" height="15" fill="#22D3EE" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0;0;1" dur="1.1s" begin="2.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- sweep -->
+    <rect x="-320" y="0" width="320" height="280" fill="url(#sweep)">
+      <animate attributeName="x" values="-320;1000" dur="5.5s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="0.5" y="0.5" width="999" height="279" rx="18" fill="none" stroke="#1F2A37" stroke-width="1"/>
+  </g>
+</svg>
