@@ -33,10 +33,10 @@ The through-line is the same in every role: **the model is rarely the hard part.
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#0E141B','primaryTextColor':'#D5DEEA','primaryBorderColor':'#7C5CFF','lineColor':'#22D3EE','fontFamily':'ui-monospace, monospace','fontSize':'13px'}}}%%
 flowchart LR
-    A["Data Engineering<br/><i>pipelines, warehouses</i>"] --> B["Data Consulting<br/><i>Amsterdam</i>"]
-    B --> C["Founding AI Engineer<br/><i>Ubundi</i>"]
-    C --> D["Context-Aware AI<br/><i>RAG · GraphRAG · KGs</i>"]
-    C --> E["First Motive<br/><i>data engine for physical AI</i>"]
+    A["Data Engineering<br/>pipelines · warehouses"] --> B["Data Consulting<br/>Amsterdam"]
+    B --> C["Founding AI Engineer<br/>Ubundi"]
+    C --> D["Context-Aware AI<br/>RAG · GraphRAG · KGs"]
+    C --> E["First Motive<br/>data engine for physical AI"]
     D -.->|same problem,<br/>new modality| E
 
     style A stroke:#334155,fill:#0E141B
@@ -150,16 +150,8 @@ Most of the enterprise AI work — client knowledge graphs, retrieval systems, e
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=WynandNeethling&show_icons=true&hide_border=true&rank_icon=github&bg_color=0B0F14&title_color=7C5CFF&text_color=C9D4E3&icon_color=22D3EE&ring_color=F471B5" alt="GitHub stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WynandNeethling&layout=compact&langs_count=8&hide_border=true&bg_color=0B0F14&title_color=7C5CFF&text_color=C9D4E3" alt="Top languages" />
-
-<br /><br />
-
-<img src="https://streak-stats.demolab.com?user=WynandNeethling&hide_border=true&background=0B0F14&border=1F2A37&stroke=1F2A37&ring=7C5CFF&fire=F471B5&currStreakNum=FFFFFF&currStreakLabel=22D3EE&sideNums=C9D4E3&sideLabels=C9D4E3&dates=5C6B7E" alt="Streak" />
-
-<br /><br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=WynandNeethling&custom_title=Contribution%20Activity&bg_color=0B0F14&color=C9D4E3&title_color=7C5CFF&line=22D3EE&point=F471B5&area=true&area_color=7C5CFF&hide_border=true" alt="Activity graph" />
+<!-- Rendered daily by .github/workflows/signal.yml straight from the GitHub API. -->
+<img src="assets/signal.svg" width="100%" alt="GitHub signal" />
 
 <br /><br />
 
