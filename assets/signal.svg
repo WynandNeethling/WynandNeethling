@@ -24,7 +24,7 @@
     <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
       <circle class="core" cx="32" cy="34" r="4" fill="#22D3EE"/>
       <text x="47" y="38" font-size="12" letter-spacing="3" fill="#8B97A8">SIGNAL &#183; <tspan fill="#7C5CFF">LIVE FROM THE GITHUB API</tspan></text>
-      <text x="972" y="38" text-anchor="end" font-size="10" letter-spacing="1.6" fill="#5C6B7E">updated 2026-09-01</text>
+      <text x="972" y="38" text-anchor="end" font-size="10" letter-spacing="1.6" fill="#5C6B7E">updated 2026-09-02</text>
     </g>
     <g>
       <rect x="28.0" y="56" width="224.0" height="84" rx="12" fill="#0E141B" stroke="#1F2A37"/>
@@ -40,7 +40,7 @@
       <rect class="tile" x="282.0" y="55" width="196.0" height="2.5" rx="1.2" fill="#22D3EE" opacity="0.3" style="animation-delay: 1.2s"/>
       <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
         <text x="286.0" y="80" font-size="10" letter-spacing="2" fill="#5C6B7E">CURRENT STREAK</text>
-        <text x="286.0" y="113" font-size="28" font-weight="700" fill="#D5DEEA">1</text>
+        <text x="286.0" y="113" font-size="28" font-weight="700" fill="#D5DEEA">0</text>
         <text x="286.0" y="130" font-size="9.5" letter-spacing="0.8" fill="#22D3EE">days</text>
       </g>
     </g>
